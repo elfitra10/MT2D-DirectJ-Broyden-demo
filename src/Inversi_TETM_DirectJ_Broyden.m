@@ -67,7 +67,7 @@ print_every         = 10;
 
 % Clean release options
 show_figures        = true;    % display model, RMS, and data-fit figures
-save_results        = true;   % save only a compact .mat result if true
+save_results        = false;   % save only a compact .mat result if true
 save_figures        = false;   % save figures only if true
 
 % Direct-sensitivity Jacobian settings
