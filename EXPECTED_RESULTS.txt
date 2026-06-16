@@ -1,0 +1,31 @@
+Expected results
+
+Demo case: layered_100_10
+
+Synthetic input:
+- Number of frequencies: 12
+- Number of stations: 11
+- TE data length: 264
+- TM data length: 264
+- Joint data length: 528
+- Model parameters: 1748
+
+Expected inversion output:
+- Initial joint RMS: approximately 7.44
+- Final joint RMS: approximately 1.08
+- Final TE RMS: approximately 1.07
+- Final TM RMS: approximately 1.09
+- Final resistivity range: approximately 8.75 to 176.86 ohm.m
+
+Runtime:
+- Runtime depends on hardware, MATLAB version, and operating system.
+- With cached Jacobians, the clean demo typically runs in about 90-120 s on the author's machine.
+
+Notes:
+Small numerical differences may occur because of MATLAB version, sparse linear solver
+behaviour, operating system, and hardware-dependent numerical precision.
+
+Additional case:
+- vertical_100_10 is included as an additional synthetic case if the matching input
+  folder and cached Jacobian files are present. Its numerical output should be checked
+  from the MATLAB Command Window summary after running the case.

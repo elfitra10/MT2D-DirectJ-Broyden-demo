@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "MT2D DirectJ-Broyden Synthetic Demo"
+message: "If you use this code, please cite the associated manuscript and repository."
+type: software
+authors:
+  - family-names: "Desifatma"
+    given-names: "Elfitra"
+  - family-names: "Djaja"
+    given-names: "I.G.P. Fadjar Soerja"
+  - family-names: "Pratomo"
+    given-names: "Prihandhanu M."
+  - family-names: "Suprijadi"
+    given-names: "Suprijadi"
+  - family-names: "Srigutomo"
+    given-names: "Wahyu"
+version: 1.0.0
+date-released: 2026-06-16
+license: GPL-3.0-only
+repository-code: "https://github.com/elfitra10/MT2D-DirectJ-Broyden-demo"
