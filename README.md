@@ -36,7 +36,7 @@ cd('path_to/MT2D-DirectJ-Broyden-demo')
 3. Run:
 
 ```matlab
-run_full_inversion_layered_100_10
+run_full_inversion
 ```
 
 The script loads the selected synthetic data folder, loads the cached direct-sensitivity Jacobians, runs the joint TE-TM inversion with controlled Broyden updates, prints the RMS and timing summary in the MATLAB Command Window, and displays the model, RMS convergence, and data-fit figures.
