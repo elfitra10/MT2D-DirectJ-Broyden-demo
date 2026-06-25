@@ -1,5 +1,4 @@
 %% Inversi_TETM_DirectJ_Broyden_clean_plots_v2.m
-% Clean English release script for the representative 2-D MT joint TE-TM inversion demo.
 % This script loads fixed synthetic data and cached direct-sensitivity Jacobians,
 % runs the controlled Broyden inversion, prints a compact Command Window summary,
 % and displays model/RMS/data-fit figures.
@@ -42,10 +41,6 @@ phase_mode_tm       = 'raw';
 phase_plot_mode     = 'inversion';   % 'inversion' | 'raw_display'
 
 % Select one model type:
-% model_type = 'homogen';
-% model_type = 'layered_10_100';
-% model_type = 'layered_100_10';
-% model_type = 'vertical_10_100';
 % model_type = 'vertical_100_10';
 model_type = 'layered_100_10';
 
@@ -65,7 +60,6 @@ tol_outer_improve   = 7e-4;
 max_ls              = 16;
 print_every         = 10;
 
-% Clean release options
 show_figures        = true;    % display model, RMS, and data-fit figures
 save_results        = false;   % save only a compact .mat result if true
 save_figures        = false;   % save figures only if true
@@ -78,7 +72,7 @@ save_figures        = false;   % save figures only if true
 force_rebuild_each_outer     = false;
 force_build_initial_jacobian = false;
 load_only_jacobian           = true;
-validate_direct_jacobian = false;   % true only for checking selected columns against finite differences
+validate_direct_jacobian = false;   
 n_validate_cols              = 6;
 rhs_chunk_size               = 100;
 
