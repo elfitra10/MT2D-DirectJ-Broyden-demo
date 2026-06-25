@@ -21,7 +21,7 @@ MT2D-DirectJ-Broyden-demo/
 ├── EXPECTED_RESULTS.txt
 ├── LICENSE
 ├── README.md
-└── run_full_inversion_layered_100_10.m
+└── run_full_inversion.m
 ```
 
 ## How to run the inversion demo
