@@ -4,7 +4,7 @@ This repository provides a MATLAB demo for 2-D magnetotelluric joint TE-TM inver
 
 ## Requirements
 
-- MATLAB R2023a or newer is recommended.
+- The demo was developed and tested in MATLAB R2022/R2023.
 - No additional MATLAB toolbox is required for the provided demo workflow.
 
 ## Repository structure
