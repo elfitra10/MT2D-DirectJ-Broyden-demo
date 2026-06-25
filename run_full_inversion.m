@@ -1,5 +1,5 @@
 function run_full_inversion()
-%% run_full_inversion_layered_100_10_clean_plots_v2.m
+%% run_full_inversion.m
 % Run the English clean release version with model, RMS, and data-fit figures.
 
 clc; close all;
